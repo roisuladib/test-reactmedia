@@ -1,0 +1,14 @@
+{
+   "compilerOptions": {
+      "module": "CommonJS",
+      "target": "ES6",
+      "baseUrl": "./src",
+      "sourceMap": true,
+      "paths": {
+         "assets": ["./assets"],
+         "components": ["./components"],
+         "configs": ["./configs"]
+      }
+   },
+   "exclude": ["./node_modules"]
+}
